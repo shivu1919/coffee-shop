@@ -1,0 +1,67 @@
+#background{
+    background: url(coffee.jpg);
+    padding:20px;
+    height:100vh;
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1.5px dashed white;
+    padding:10px;
+}
+span{
+    color:white;
+    font-size: 1.5rem;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#coffee_text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 10px;
+   
+}
+h3{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#shop_button{
+    width: 8rem;
+    height:3rem;
+    color:white;
+    border:1px solid white;
+    align-items: center;
+    font-size: 22px;
+}
+
+#shop_button:hover{
+    background-color: antiquewhite;
+}
+
+p{
+    display: inline;
+}
+
+#second_section{
+    padding-top:80px;
+}
+
+#coffee_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:40px;
+}
+
+#espresso_img{
+    border-radius: 20px;
+}
