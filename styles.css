@@ -65,3 +65,33 @@ p{
 #espresso_img{
     border-radius: 20px;
 }
+
+#sec_3_bg{
+    background:url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_1280.jpg) ;
+    background-size: cover;
+    height: 100vh;
+}
+#sec_3_>h1{
+    font-size: 8rem;
+
+}
+#sec_3
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+#prep_list{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:1220px){
+
+    #coffee_list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
